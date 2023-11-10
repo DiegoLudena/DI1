@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Scene xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FigurasController">
+   <root>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="343.0" prefWidth="563.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="96.0" prefWidth="372.0">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <children>
+                  <Line fx:id="linea3" endX="54.0" endY="-18.0" layoutX="290.0" layoutY="167.0" startX="46.0" startY="-147.0" stroke="#bc0c0c" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeWidth="4.0" />
+                  <Line fx:id="linea1" endX="-18.0" endY="-30.0" layoutX="190.0" layoutY="55.0" startX="-100.0" stroke="#901f7f" strokeLineCap="ROUND" strokeWidth="3.0" />
+                  <Line fx:id="linea2" endX="129.0" endY="19.0" layoutX="158.0" layoutY="88.0" startX="-100.0" stroke="#c5d061" strokeWidth="6.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="96.0" prefWidth="418.0">
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <children>
+                  <Rectangle fx:id="rectangulo1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="114.0" layoutX="35.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="197.0" />
+                  <Rectangle fx:id="cuadrado1" arcHeight="5.0" arcWidth="5.0" fill="#ffc221" height="100.0" layoutX="281.0" layoutY="13.0" stroke="#ab2020" strokeType="INSIDE" strokeWidth="3.0" width="100.0" />
+                  <Circle fx:id="circulo1" fill="#fdff1f" layoutX="502.0" layoutY="115.0" radius="49.0" stroke="#842390" strokeWidth="6.0" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </root>
+</Scene>
